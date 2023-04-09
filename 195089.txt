@@ -1,0 +1,33 @@
+Искористени гит команди:
+    1. git init - иницијализирање на локално гит репо
+    2. git remote add origin https://github.com/Kristijan29/SI_2023_lab1_195089.git - конекција со локално и ремоте репо
+    3. git status - да проверам што измени имам направено во README.md фајлот
+    4. git add README.md - да го додадеме фајлот во staging area 
+    5. git commit -m "Initial commit" - да направиме commit со порака за додадените фајлови за да ни бидат зачувани
+    6. git push -u origin master - да ги пушнам локалните измени од локална мастер до github мастер
+    7. git remote -r - да проверам дали оригин ни е мастер
+    8. git add SILab1.java
+    9. git commit -m "Add java class"
+    10. git push - да ги синхронизираме измените, користам само git push поради тоа што веќе ни е поврзана локал master со ремоте origin/master
+
+        Креирање на локални гранки за јава баговите
+    11. git checkout -b bug1
+    12. git checkout -b bug2 
+    13. git checkout -b bug3
+    14. git checkout bug1
+    16. после измената git diff - гледам која измена ја имам направено
+    17. git add SILab1.java, git commit -m "Fix wrong loop for reading"
+    18. git add SILab1.java, git commit -m "Fix wrong condition in filterOddNumbers"
+    19. git add SILab1.java, git commit -m "Fix method sumEvenNumbers"
+    20. git push --set-upstream origin bug1
+    21. git push --set-upstream origin bug2
+    22. git push --set-upstream origin bug3
+    23. git checkout master
+    24. git merge bug1 - Merge made by the Fast-forward
+    25. git push
+    26. git merge bug2 - Merge made by the 'ort' strategy.
+    27. git push
+    28. git checkout bug3
+    29. git rebase master решив конфликт што ми се појави
+    30. git checkout master, git merge bug3, git push --force
+

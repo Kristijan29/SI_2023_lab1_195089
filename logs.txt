@@ -1,0 +1,44 @@
+commit 86a8070f2d9102d849e6de6e0a20e3216260eb73 (HEAD -> master)
+Merge: 37bfeda 6d77bdc
+Author: Kristijan Mitkovski <kiko-mitko29@outlook.com>
+Date:   Sun Apr 9 12:26:44 2023 +0200
+
+    Merge branch 'bug3'
+
+commit 6d77bdc46c695b113da1bd3827cadbcbe6f11d66 (bug3)
+Author: Kristijan Mitkovski <kiko-mitko29@outlook.com>
+Date:   Sun Apr 9 10:53:17 2023 +0200
+
+    Add java class
+
+commit 37bfedae364886f5b244d9b2a1d3c61e9f87272d (origin/master)
+Merge: 8157f1b 6c1a96e
+Author: Kristijan Mitkovski <kiko-mitko29@outlook.com>
+Date:   Sun Apr 9 11:52:23 2023 +0200
+
+    Merge branch 'bug2'
+    Pease enter a commit message to explain why this merge is necessary, if it merges an updated upstream into a topic branch.
+
+commit 6c1a96e9031700fae48e9b42fcf4e23608436a25 (origin/bug2, bug2)
+Author: Kristijan Mitkovski <kiko-mitko29@outlook.com>
+Date:   Sun Apr 9 11:45:27 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 8157f1b59e88d7c9bf96aac0d059d63ae2a4c3de (origin/bug1, bug1)
+Author: Kristijan Mitkovski <kiko-mitko29@outlook.com>
+Date:   Sun Apr 9 11:34:34 2023 +0200
+
+    Fix wrong loop for reading
+
+commit c2f65b89f5d17b5ad95e3eab42a2222ae968bebc
+Author: Kristijan Mitkovski <kiko-mitko29@outlook.com>
+Date:   Sun Apr 9 10:53:17 2023 +0200
+
+    Add java class
+
+commit 03a3ed1dd2fed5c52c058a1ca77f152b20e8ab49
+Author: Kristijan Mitkovski <kiko-mitko29@outlook.com>
+Date:   Sun Apr 9 10:38:12 2023 +0200
+
+    Initial commit
